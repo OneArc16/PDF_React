@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap"; 
+import VistaHC from "./VistaHC";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <div>
       <Menu />
-      <h1>Hola voy hacer un PDF</h1>
+      <VistaHC />
     </div>
   );
 }
